@@ -4,3 +4,8 @@
 
 3. If the server is overloaded (overloaded), will the API continue to return incorrect results, or will it time out or crash?
 
+4. After a calculation error occurs (e.g., timeout, invalid input), does the system recover its state to continue serving subsequent requests?
+
+5. What metrics are currently used to evaluate the system's responses? (e.g., response time under 1 second)
+
+6. Is there an SLA guarantee for this API? If it fails to return a correct result within 1 second, is any internal alert triggered?
