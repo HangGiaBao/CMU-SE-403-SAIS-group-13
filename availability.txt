@@ -15,3 +15,9 @@
 8. When exceeding the time limit (TIME_LIMIT), the system interrupts and returns a JSON — is this considered a form of “graceful degradation”?
 
 9. Does the API use tactics such as retry, rollback, or error logging to help detect and recover from errors?
+
+10. Can this API scale horizontally (multiple instances) to increase availability when many users make simultaneous requests?
+
+11.  If one instance of /fibonacci crashes, is there a redundant service or system in place to take over?
+
+12.  Does the API differentiate between runtime environments (startup, degraded mode, overload) in order to adjust its logic accordingly?
