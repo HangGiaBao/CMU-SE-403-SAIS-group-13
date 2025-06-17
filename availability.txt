@@ -9,3 +9,9 @@
 5. What metrics are currently used to evaluate the system's responses? (e.g., response time under 1 second)
 
 6. Is there an SLA guarantee for this API? If it fails to return a correct result within 1 second, is any internal alert triggered?
+
+7. How does this API detect input errors? Can it be extended to detect system-level issues (e.g., out-of-memory, stuck processes)?
+
+8. When exceeding the time limit (TIME_LIMIT), the system interrupts and returns a JSON — is this considered a form of “graceful degradation”?
+
+9. Does the API use tactics such as retry, rollback, or error logging to help detect and recover from errors?
