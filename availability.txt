@@ -21,3 +21,5 @@
 11.  If one instance of /fibonacci crashes, is there a redundant service or system in place to take over?
 
 12.  Does the API differentiate between runtime environments (startup, degraded mode, overload) in order to adjust its logic accordingly?
+
+13. "Can TIME_LIMIT adjust itself automatically based on the current system load?"
